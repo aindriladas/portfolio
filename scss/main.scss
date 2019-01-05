@@ -83,4 +83,32 @@ main{
 .bio{
   grid-area:bio;
 }
+
+.achi{
+  display: grid;
+  grid-gap:30px;
+  grid-template-areas:
+  "ach1"
+  "ach2";
+  grid-template-columns: 1fr;
+}
 @import "mobile";
+
+.boxes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+
+  div{
+    font-size: 2rem;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    @include box_shadow(3);
+    @include easeOut;
+    &:hover{
+      @include box_shadow(5);
+    }
+  }
+}

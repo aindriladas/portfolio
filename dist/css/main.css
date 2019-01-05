@@ -204,6 +204,12 @@ main {
 .bio {
   grid-area: bio; }
 
+.achi {
+  display: grid;
+  grid-gap: 30px;
+  grid-template-areas: "ach1" "ach2";
+  grid-template-columns: 1fr; }
+
 @media screen and (max-width: 500px) {
   main#home h1 {
     margin-top: 10vh; } }
@@ -236,3 +242,18 @@ main {
       height: 120px; }
   .menu-btn.close .btn-line .fas.fa-times.fa-4x {
     transform: scale(0.75) translate3d(58vw, 0, 0); } }
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  .boxes div {
+    font-size: 2rem;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    transition: all 0.5s ease-out; }
+    .boxes div:hover {
+      box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); }
