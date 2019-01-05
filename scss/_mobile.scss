@@ -51,7 +51,15 @@ div.menu-branding{
       transform: scale(0.75) translate3d(58vw,0,0);
 
   }
+
 }
 }
+}
+.about-info {
+  grid-template-areas:
+    'bioimage'
+    'bio';
+
+  grid-template-columns: 1fr;
 }
 }
