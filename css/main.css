@@ -126,7 +126,10 @@
       width: 120px;
       height: 120px; }
   .menu-btn.close .btn-line .fas.fa-times.fa-4x {
-    transform: scale(0.75) translate3d(58vw, 0, 0); } }
+    transform: scale(0.75) translate3d(58vw, 0, 0); }
+  .about-info {
+    grid-template-areas: 'bioimage' 'bio';
+    grid-template-columns: 1fr; } }
 
 * {
   box-sizing: border-box; }
@@ -241,7 +244,10 @@ main {
       width: 120px;
       height: 120px; }
   .menu-btn.close .btn-line .fas.fa-times.fa-4x {
-    transform: scale(0.75) translate3d(58vw, 0, 0); } }
+    transform: scale(0.75) translate3d(58vw, 0, 0); }
+  .about-info {
+    grid-template-areas: 'bioimage' 'bio';
+    grid-template-columns: 1fr; } }
 
 .boxes {
   display: flex;
